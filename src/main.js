@@ -49,10 +49,10 @@ google.maps.event.addListenerOnce(map, 'idle', function() {
     $el.right.panel.width(v);
     $el.right.input.next().text(v + " px");
     v = offset.top = val($el.top.input);
-    $el.top.panel.width(v);
+    $el.top.panel.height(v);
     $el.top.input.next().text(v + " px");
     v = offset.bottom = val($el.bottom.input);
-    $el.bottom.panel.width(v);
+    $el.bottom.panel.height(v);
     $el.bottom.input.next().text(v + " px");
     return util.fitBounds(bounds, offset);
   };
