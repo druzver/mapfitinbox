@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//maps.google.com/maps/api/js?v=3&amp;language=ru&amp;libraries=geometry,visualization" ></script>
+
+
+    <link rel="stylesheet" type="text/css" href="src/main.css">
+</head>
+<body>
+    <div class="container">
+        <div id="map"></div>
+        <div class="panel__bottom"> </div>
+        <div class="panel__left"> </div>
+        <div class="panel__right"> </div>
+        <div class="panel__top"> </div>
+    </div>
+
+    <div>bottom = <input type="range" id = "input-bottom"  value = 10 min="0" max="400" step="10" /><span></span></div>
+    <div>left = <input type="range" id = "input-left" value = 20 min="0" max="900" step="10" /><span></span></div>
+    <div>top = <input type="range" id = "input-top" value = 30 min="0" max="400" step="10" /><span></span></div>
+    <div>right = <input type="range" id = "input-right" value = 40 min="0" max="400" step="10" /><span></span></div>
+
+
+
+</body>
+<script src="src/Utill.js"></script>
+<script src="src/main.js"></script>
+</html>
